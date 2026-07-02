@@ -138,6 +138,12 @@ section{padding:110px 4%;}
 .pj-img{height:210px;position:relative;display:flex;align-items:center;justify-content:center;overflow:hidden;}
 .pj-img.elec{background:#060e24;}
 .pj-img.pet{background:#060e1a;}
+.pj-img img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+}
 .pj-bg{position:absolute;inset:0;width:100%;height:100%;}
 .pj-icon{font-size:4rem;z-index:2;position:relative;filter:drop-shadow(0 0 24px rgba(96,165,250,.6));animation:icoFlo 4s ease-in-out infinite;}
 @keyframes icoFlo{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
@@ -435,7 +441,23 @@ footer p strong{color:var(--white);}
 <section id="projects">
   <div class="rv"><div class="s-tag">Portfolio</div><h2 class="s-title">Featured <span class="hi">Projects</span></h2><p class="s-sub">Real-world projects built with precision and attention to detail.</p></div>
   <div class="pj-grid rv d1">
-
+    
+<!-- [Abi Rice SHop Website] -->
+ <div class="pj-card">
+      <div class="pj-img elec">
+    <img src="images/abi-rice-shop.png" alt="ABI Rice Shop Website">
+    <span class="pj-badge live-b">Live Project</span>
+</div>
+      <div class="pj-body">
+        <h3>ABI Rice Shop Website</h3>
+        <p>A modern and responsive business website for ABI Rice Shop built using HTML, CSS, and JavaScript. Features include bilingual support (English & Tamil), product showcase, gallery, testimonials, WhatsApp integration, contact form, and responsive design.</p>
+        <div class="pj-tags"><span class="ptag">HTML</span><span class="ptag">CSS3</span><span class="ptag">JavaScript</span><span class="ptag">Responsive</span><span class="ptag">Bilingual</span></div>
+        <div class="pj-btns">
+          <a href="https://prema97cs-glitch.github.io/abi-rice-shop/" target="_blank" rel="noopener" class="pbtn pp"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+          <a href="https://github.com/prema97cs-glitch/abi-rice-shop" target="_blank" rel="noopener" class="pbtn pg"><i class="fab fa-github"></i> Source Code</a>
+        </div>
+      </div>
+    </div>
     <!-- Elite Electronics -->
     <div class="pj-card">
       <div class="pj-img elec">
